@@ -1,6 +1,5 @@
-
-INSERT INTO burgers (burger_name, devoured) VALUES ("Bison Burger", true);
-
-INSERT INTO burgers (burger_name, devoured) VALUES ("Egg Burger", false);
-
-INSERT INTO burgers (burger_name, devoured) VALUES ("The Great Burger", false);
+INSERT INTO burgers (`burger_name`, devoured, date)
+VALUES
+    ("Double Shackburger w/ Pickles", 0, CURRENT_TIMESTAMP),
+    ("Royale Avec Fromage", 0, CURRENT_TIMESTAMP),
+    ("Krusty Burger", 0, CURRENT_TIMESTAMP);
